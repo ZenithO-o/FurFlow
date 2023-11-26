@@ -20,8 +20,6 @@ with open(file_path/'config.json', encoding='utf-8') as json_file:
 
 logfile = file_path/'furflow.log'
 
-
-
 logging.getLogger("httpx").setLevel(logging.WARNING)
 logging.basicConfig(filename=logfile,
                     encoding='utf-8',
