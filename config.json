@@ -19,8 +19,18 @@
             "capacity": 200
         }
     },
+    "Serial": {
+        "port": "COM4",
+        "baudrate": "38400",
+        "bytesize": 8,
+        "stopbits": 1,
+        "parity": "N",
+        "xonxoff": true,
+        "timeout": 4
+
+    },
     "SensorReadouts": ["temperature", "aqi", "aqi_accuracy", "humidity", "pressure", "person_count"],
-    "Output": ["person_count", "aqi", "temperature_f"],
+    "Output": ["capacity", "aqi", "temperature_f", "humidity", "pressure"],
     "Readouts": {
         "temperature": {
             "alias": "Temperature",
