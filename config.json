@@ -1,0 +1,66 @@
+{
+    "TimeZone": "US/Central",
+    "DateString": "%Y-%m-%d %H:%M:%S",
+    "Devices": {
+        "dn1": {
+            "location": "dealers_den"
+        },
+        "dn2": {
+            "location": "hilton_lobby"
+        }
+    },
+    "Locations": {
+        "dealers_den": {
+            "alias": "Dealer's Den",
+            "capacity": 100
+        },
+        "hilton_lobby": {
+            "alias": "Hilton Lobby",
+            "capacity": 200
+        }
+    },
+    "SensorReadouts": ["temperature", "aqi", "aqi_accuracy", "humidity", "pressure", "person_count"],
+    "Output": ["person_count", "aqi", "temperature_f"],
+    "Readouts": {
+        "temperature": {
+            "alias": "Temperature",
+            "ending": "°C",
+            "precision": 0
+        },
+        "temperature_f": {
+            "alias": "Temperature",
+            "ending": "°F",
+            "precision": 0
+        },
+        "aqi": {
+            "alias": "Air Quality",
+            "ending": " AQI",
+            "precision": 1
+        },
+        "aqi_accuracy": {
+            "alias": "Air Quality Accuracy",
+            "ending": null,
+            "precision": 0
+        },
+        "humidity": {
+            "alias": "Humidity",
+            "ending": "%",
+            "precision": 0
+        },
+        "pressure": {
+            "alias": "Pressure",
+            "ending": null,
+            "precision": 0
+        },
+        "person_count": {
+            "alias": "Person Count",
+            "ending": null,
+            "precision": 0
+        },
+        "capacity": {
+            "alias": "Capacity",
+            "ending": "%",
+            "precision": 0
+        }
+    }
+}
