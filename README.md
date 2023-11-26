@@ -1,2 +1,2 @@
 # FurFlow
-software for Laura based room status sensors
+software for LoRa based room status sensors
